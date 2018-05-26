@@ -1,7 +1,7 @@
 // Home
-$('#header a').on('click', function (event) {
+$('.logo').on('click', function (event) {
     $('html, body').animate({
-        scrollTop: $(".bio").offset().top
+        scrollTop: 0,
     });
 })
 
