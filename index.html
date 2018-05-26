@@ -7,7 +7,9 @@
     <meta name="description" content="Portfolio for Ilya Andreev, Full Stack Web Developer">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="responsive-grid.css" type="text/css">
     <link rel="stylesheet" href="main.css" type="text/css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 </head>
 
 <body>
@@ -29,13 +31,12 @@
     <main class="info">
        <section class="pic">
             <div class="container">
-                <img src="images/samuel-zeller-29354-unsplash.jpg" alt="" class="col-12" />
-                <h1>Say something</h1>
+                <img src="images/samuel-zeller-29354-unsplash.jpg" alt=""/>
             </div>
        </section>
         <section class="bio" role="region">
-            <div class="container">
-                <h1 class="title"><img src="images/me.jpg" alt="" class="col-4" />Here's a little about me.</h1>
+            <div class="section-container">
+                <h1 class="section-title"><img src="images/me.jpg" alt="" class="col-5"/>Here's a little about me.</h1>
                 <h4>I'm Web Developer, Coffee lover, Dad, Traveler.</h4>
                 <p>I first got started with web development when created my first website with WordPress. My target was advertising Amazon products. Any time I was trying to bring my website to better place, I had a problem on how to implement my new ideas into code and design. On some point I felt that I have to learn and get more experience with building a website. From that point I started to learn about web development. Today I feel more than happy being into web development industry. I look forward to working on new projects and level up my skills.</p>
 
@@ -43,37 +44,37 @@
         </section>
 
         <section class="skills" role="region">
-            <div class="container">
-                <h3 class="title">Skills</h3>
-                <div class="container">
-                    <img src="logo/html-logo.png" height="80" width="75" alt="HTML, CSS, JavaScript" />
-                    <img src="logo/css-logo.png" height="80" width="75" alt="HTML, CSS, JavaScript" />
-                    <img src="logo/js-logo.png" height="80" width="75" alt="HTML, CSS, JavaScript" />
-                    <img src="logo/jquery-logo.png" height="80" width="75" alt="jQuery" />
-                    <img src="logo/ajax-logo.png" height="80" width="75" alt="AJAX" />
-                    <img src="logo/react-logo.png" height="80" width="75" alt="React" />
-                    <img src="logo/redux-logo.png" height="80" width="75" alt="Redux" />
-                    <img src="logo/node-logo.png" height="80" width="75" alt="NodeJS" />
-                    <img src="logo/mongo-logo.png" height="80" width="75" alt="MongoDB" />
-                    <img src="logo/mlab-logo.png" height="80" width="75" alt="mLab" />
-                    <img src="logo/mocha-logo.png" height="80" width="75" alt="Mocha and Chai" />
-                    <img src="logo/chai-logo.png" height="80" width="75" alt="Mocha and Chai" />
-                    <img src="logo/brackets-logo.jpeg" height="80" width="75" alt="Brackets" />
-                    <img src="logo/git-logo.png" height="80" width="75" alt="Git" />
-                    <img src="logo/github-logo.png" height="90" width="130" alt="Github" />
+            <div class="section-container">
+                <h3 class="section-title">Skills</h3>
+                <div class="skills-container">
+                    <img src="logo/html-logo.png" alt="HTML, CSS, JavaScript" />
+                    <img src="logo/css-logo.png" alt="HTML, CSS, JavaScript" />
+                    <img src="logo/js-logo.png" alt="HTML, CSS, JavaScript" />
+                    <img src="logo/jquery-logo.png" alt="jQuery" />
+                    <img src="logo/ajax-logo.png" alt="AJAX" />
+                    <img src="logo/react-logo.png" alt="React" />
+                    <img src="logo/redux-logo.png" alt="Redux" />
+                    <img src="logo/node-logo.png" alt="NodeJS" />
+                    <img src="logo/mongo-logo.png" alt="MongoDB" />
+                    <img src="logo/mlab-logo.png" alt="mLab" />
+                    <img src="logo/mocha-logo.png" alt="Mocha and Chai" />
+                    <img src="logo/chai-logo.png" alt="Mocha and Chai" />
+                    <img src="logo/brackets-logo.jpeg" alt="Brackets" />
+                    <img src="logo/git-logo.png" alt="Git" />
+                    <img src="logo/github-logo.png" alt="Github" />
                 </div>
             </div>
         </section>
 
         <section class="projects" role="region">
-            <div id="projects" class="container">
-                <h3 class="title">Projects</h3>
-                <div class="container col-12">
-                    <img class="col-6" src="" alt="News Beast" />
-                    <div class="description col-6">
+            <div class="section-container">
+                <h3 class="section-title">Projects</h3>
+                <div class="project-container col-12">
+                    <img class="col-6" src="images/news-beast.png" alt="News Beast" />
+                    <div class="project-description col-6">
                         <h6>News Beast</h6>
                         <p>News Beast is an interactive full-stack web app that provides to user with the latest sports and art news. In addition app lets user to get a top news for specific date, like user's birthday.</p>
-                        <ul class="project-skills">
+                        <ul class="skills">
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>JavaScript</li>
@@ -90,8 +91,8 @@
                         <a href="https://hero931.github.io/news-fullstack-capstone-react/build" target="_blank">Demo</a>
                     </div>
                 </div>
-                <div class="container col-12">
-                    <img class="col-6" src="" alt="Wellness Organizer" />
+                <div class="project-container col-12">
+                    <img class="col-6" src="images/wellness.png" alt="Wellness Organizer" />
                     <div class="project-description col-6">
                         <h6>Wellness Organizer</h6>
                         <p>Wellness Organizer is an interactive full-stack web app that helps users build their own wellness program that includes combination of nutrition and workout exercises by guiding them through the principle of consistent progress.</p>
@@ -112,9 +113,9 @@
                         <a href="https://wellness-organizer.herokuapp.com/" target="_blank">Demo</a>
                     </div>
                 </div>
-                <div class="container col-12">
-                    <img class="col-6" src="" alt="Movie Searcher" />
-                    <div class="description col-6">
+                <div class="project-container col-12">
+                    <img class="col-6" src="images/movie-searcher.png" alt="Movie Searcher" />
+                    <div class="project-description col-6">
                         <h6>Movie Searcher</h6>
                         <p>Interactive app that let user track movie reviews from New York Times sources.</p>
                         <ul class="project-skills">
@@ -130,7 +131,9 @@
                 </div>
             </div>
         </section>
-
+        <div class="back-top">
+            <button><i class="fa fa-chevron-up"></i></button>
+        </div>
         <section class="contact" role="region">
             <h3 class="section-title">Get in TOUCH</h3>
             <ul>
@@ -156,11 +159,9 @@
                 </li>
             </ul>
         </section>
-
         <footer role="contentinfo">
             <p>2018 Ilya Andreev</p>
         </footer>
-
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script src="app.js"></script>
 
