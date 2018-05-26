@@ -1,8 +1,8 @@
 // Home
-$('#header').on('click', function (event) {
+$('header h1 a').on('click', function (event) {
     $('html, body').animate({
-        scrollTop: 0,
-    }, 'fast')
+        scrollTop: $(".bio").offset().top
+    });
 })
 
 // About Me
