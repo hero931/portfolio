@@ -1,10 +1,3 @@
-// Home
-$('.logo').on('click', function (event) {
-    $('html, body').animate({
-        scrollTop: 0,
-    });
-})
-
 // About Me
 $('#nav-bio').on('click', function (event) {
     $('html, body').animate({
