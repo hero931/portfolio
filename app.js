@@ -1,5 +1,5 @@
 // Home
-$('header h1 a').on('click', function (event) {
+$('#header a').on('click', function (event) {
     $('html, body').animate({
         scrollTop: $(".bio").offset().top
     });

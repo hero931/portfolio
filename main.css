@@ -84,10 +84,10 @@ header nav {
 }
 
 .pic {
-    min-height: 350px;
+    min-height: 400px;
     background: url(./images/sky.jpg) no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
 
 .pic h1 {
