@@ -164,7 +164,6 @@ section p {
     padding-left: 1.2rem;
     padding-right: 1.2rem;
     padding-bottom: 1rem;
-    width: 160px;
     height: 120px
 }
 
@@ -174,7 +173,7 @@ section p {
 }
 
 .project-container {
-    border: 2px #35424a solid;
+    border: 1px #eee solid;
 }
 
 .projects .project-container h6 {
@@ -217,15 +216,6 @@ section p {
 
 .projects .project-container a:hover {
     background-color: gainsboro;
-}
-
-.back-top button {
-    font-size: 26px;
-    float: right;
-    border: 0.5px solid;
-    border-radius: 2px;
-    background-color: ghostwhite;
-    color: #35424a;
 }
 
 .contact {
@@ -271,24 +261,78 @@ footer {
     }
 }
 
+@media only screen and (max-width: 480px) {
+
+    header #header {
+        margin-left: 98px;
+        margin-bottom: 8px;
+    }
+
+    .links li a {
+        margin-right: 12px;
+    }
+
+    .links li {
+        margin-bottom: 6px;
+    }
+
+    .bio img {
+        margin-right: 10px;
+        margin-bottom: 14px;
+    }
+
+    .bio p {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .skills h3 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .skills .skills-container {
+        padding: 28px;
+    }
+
+    .projects h3 {
+        text-align: center;
+    }
+
+    .contact ul {
+        margin-right: 8px;
+    }
+
+    .contact li {
+        padding-right: 2px;
+    }
+
+}
+
 @media only screen and (max-width: 320px) {
     * {
         box-sizing: border-box;
     }
 
     header #header {
-        margin-left: 13%;
+        margin-left: 30px;
+        margin-bottom: 8px;
     }
 
-    header li {
-        padding-left: 3px;
-        padding-right: 10px;
-        padding-bottom: 6px;
+    .links li a {
+        margin-right: 10px;
+    }
+
+    .links li {
+        padding-left: 2px;
+        padding-right: 0px;
     }
 
     .bio img {
         margin-right: 12px;
         margin-bottom: 16px;
+        margin-top: 18px;
     }
 
     .bio p {
@@ -299,12 +343,20 @@ footer {
 
     .skills h3 {
         text-align: center;
-        margin-bottom: 26px;
+        margin-top: 12px;
     }
 
     .projects h3 {
         text-align: center;
-        margin-bottom: 26px;
+        margin-top: 12px;
+    }
+
+    .projects {
+        padding-bottom: 115px;
+    }
+
+    .contact ul {
+        margin-right: 20px;
     }
 }
 
