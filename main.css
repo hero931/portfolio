@@ -310,9 +310,9 @@ footer {
 
 }
 
-@media only screen and (max-width: 326px) {
+@media only screen and (max-width: 320px) {
 
-    header #header {
+    .container #header {
         margin-left: 32px;
         margin-bottom: 2px;
     }
