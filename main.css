@@ -264,8 +264,8 @@ footer {
 @media only screen and (max-width: 480px) {
 
     header #header {
-        margin-left: 98px;
-        margin-bottom: 8px;
+        margin-left: 32px;
+        margin-bottom: 2px;
     }
 
     .links li a {
@@ -308,23 +308,22 @@ footer {
         padding-right: 2px;
     }
 
+    .links li {
+        padding-left: 2px;
+        padding-right: 0px;
+    }
+
 }
 
 @media only screen and (max-width: 320px) {
 
-    .container #header {
-        margin-left: 32px;
-        margin-bottom: 2px;
-    }
+
 
     .links li a {
         margin-right: 10px;
     }
 
-    .links li {
-        padding-left: 2px;
-        padding-right: 0px;
-    }
+
 
     .bio img {
         margin-right: 12px;
